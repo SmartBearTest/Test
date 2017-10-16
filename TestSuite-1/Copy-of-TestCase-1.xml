@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="385e237d-1a38-4058-8baa-8be4618fef62" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="true" name="Copy of TestCase 1" searchProperties="true" timeout="0" maxResults="0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="385e237d-1a38-4058-8baa-8be4618fcd61fileName">Copy-of-TestCase-1</con:setting><con:setting id="385e237d-1a38-4058-8baa-8be4618fef62fileName">Copy-of-TestCase-1</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="datasource" name="DataSource" id="41bf4db9-f002-4298-996b-37de16bfdb68" disabled="true"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.teststeps.datasource.DataSourceContainer@prepared-properties">&lt;xml-fragment/></con:setting></con:settings><con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dataSource type="Excel"><con:configuration><file/><worksheet/><cell>A1</cell><ignoreEmpty>false</ignoreEmpty></con:configuration></con:dataSource><con:shared>true</con:shared><con:restartShared>true</con:restartShared><con:property>Property2</con:property><con:property>value2</con:property><con:completeLastOperation>true</con:completeLastOperation><con:restartOnRun>true</con:restartOnRun></con:config></con:testStep><con:testStep type="request" id="4a5214ee-c2da-47bf-b633-fb0fa145206a" name="ConversionRate - Request 1"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>CurrencyConvertorSoap</con:interface><con:operation>ConversionRate</con:operation><con:request name="ConversionRate - Request 1" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="c7e64e7f-a919-4fde-83c5-774318688039"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+  <con:entry key="X-tokenHeader" value="value"/>
+</xml-fragment>]]></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.com/CurrencyConvertor.asmx</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>\r
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET/">\r
+   <soapenv:Header />\r
+   <soapenv:Body>\r
+      <web:ConversionRate>\r
+         <web:FromCurrency></web:FromCurrency>\r
+         <web:ToCurrency></web:ToCurrency>\r
+         <web:conversion></web:conversion>\r
+      </web:ConversionRate>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>\r
+]]></con:request><con:assertion type="SOAP Response" id="a3e54727-b24d-4121-965a-5fde73c0544f" name="SOAP Response"/><con:assertion type="Schema Compliance" id="8fca03eb-500a-4df1-9dbe-f7d3ab126db2" name="Schema Compliance"><con:configuration><definition/></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>test</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/ConversionRate"/><con:wsrmConfig version="1.2"/><con:environmentSpec><con:entry environmentId="5bb07dc4-40ed-46dd-8374-336c250eacd7"><con:authProfile>test</con:authProfile></con:entry><con:entry environmentId="63402656-adc7-4da9-8242-29f72db85de2"><con:authProfile>test</con:authProfile></con:entry></con:environmentSpec></con:request></con:config></con:testStep><con:testStep type="datasink" name="DataSink" id="7d6a13a0-d187-4a89-a384-34ee36613cdf" disabled="true"><con:settings/><con:config xsi:type="con:DataSinkStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dataSink type="Property"><con:configuration><prefix/><content/><suffix/><property/></con:configuration></con:dataSink><con:properties><con:property><con:name/><con:value/></con:property></con:properties></con:config></con:testStep><con:testStep type="datasourceloop" name="DataSource Loop" id="e6555372-2f63-4cee-a427-4e3830f7f38e" disabled="true"><con:settings/><con:config><dataSourceStep>DataSource</dataSourceStep><targetStep>DataSink</targetStep></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>388bf298-9b31-4e71-bb79-994166b419a9</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase>

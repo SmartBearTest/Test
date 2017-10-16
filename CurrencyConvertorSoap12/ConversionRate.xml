@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="3ff94b8d-2842-40de-b30f-32abdd359946" isOneWay="false" action="http://www.webserviceX.NET/ConversionRate" name="ConversionRate" bindingOperationName="ConversionRate" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="3ff94b8d-2842-40de-b30f-32abdd358854fileName">ConversionRate</con:setting><con:setting id="3ff94b8d-2842-40de-b30f-32abdd359946fileName">ConversionRate</con:setting></con:settings><con:call id="58a8b649-60d2-41e0-8f48-4167741f24e2" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.com/CurrencyConvertor.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET/">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:ConversionRate>\r
+         <web:FromCurrency>?</web:FromCurrency>\r
+         <web:ToCurrency>?</web:ToCurrency>\r
+      </web:ConversionRate>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/CurrencyConvertorSoap/ConversionRateRequest"/><con:environmentSpec><con:entry environmentId="5bb07dc4-40ed-46dd-8374-336c250eacd7"><con:authProfile>No Authorization</con:authProfile></con:entry><con:entry environmentId="63402656-adc7-4da9-8242-29f72db85de2"><con:authProfile>No Authorization</con:authProfile></con:entry></con:environmentSpec></con:call></con:operation>

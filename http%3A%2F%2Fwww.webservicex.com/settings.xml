@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="a48a21c0-4117-4358-874a-e0945223485b" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://www.webservicex.com" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="a48a21c0-4117-4358-874a-e0945223485bfileName">http%3A%2F%2Fwww.webservicex.com</con:setting></con:settings><con:definitionCache/><con:endpoints><con:endpoint>http://www.webservicex.com</con:endpoint></con:endpoints></con:interface>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="164c0327-e8fa-47c8-9774-31de26cd564b" isOneWay="false" action="http://www.webserviceX.NET/ConversionRate" name="ConversionRate" bindingOperationName="ConversionRate" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="164c0327-e8fa-47c8-9774-31de26cd934afileName">ConversionRate</con:setting><con:setting id="164c0327-e8fa-47c8-9774-31de26cd564bfileName">ConversionRate</con:setting></con:settings><con:call id="80ae5518-c7db-4d2c-b834-72c129a8ea85" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.com/CurrencyConvertor.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:ConversionRate>\r
+         <web:FromCurrency>?</web:FromCurrency>\r
+         <web:ToCurrency>?</web:ToCurrency>\r
+      </web:ConversionRate>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/ConversionRate"/><con:wsrmConfig version="1.2"/><con:environmentSpec><con:entry environmentId="5bb07dc4-40ed-46dd-8374-336c250eacd7"><con:authProfile>No Authorization</con:authProfile></con:entry><con:entry environmentId="63402656-adc7-4da9-8242-29f72db85de2"><con:authProfile>No Authorization</con:authProfile></con:entry></con:environmentSpec></con:call><con:call id="fa21bbd4-e9ab-48b0-b1d1-d771a1c3ea1a" name="Copy of Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.com/CurrencyConvertor.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:ConversionRate>\r
+         <web:FromCurrency>?</web:FromCurrency>\r
+         <web:ToCurrency>?</web:ToCurrency>\r
+      </web:ConversionRate>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/ConversionRate"/><con:wsrmConfig version="1.2"/></con:call></con:operation>
